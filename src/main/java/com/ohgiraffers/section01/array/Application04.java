@@ -13,7 +13,7 @@ public class Application04 {
         int[] score = new int[5];
         Scanner scr = new Scanner(System.in);
         double sum =0;
-        double avr =0;
+
 
         for(int i = 0 ; i<score.length; i++    ){
 
@@ -22,7 +22,7 @@ public class Application04 {
             score[i]=scr.nextInt();
             sum +=score[i];
         }
-        avr=sum/score.length;
+        double avr=sum/score.length;
 
         System.out.println("sum = " + sum);
         System.out.println("avr = " + avr);

@@ -36,6 +36,8 @@ public class Application02 {
         System.out.println("iarr2 의 hascode : "+iarr2.hashCode());
         System.out.println("iarr2 의 길이 : "+iarr2.length);
 
+        // 동일한 주소가 나오지 않는것을 보면 배열의 칸수가 바뀌면서 원래 있던 상자의 칸수가 많아지는 것이 아닌 새로운 상자를 할당 받아 지정한 칸수를 넣은것이다
+
 
 
     }
